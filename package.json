@@ -1,0 +1,22 @@
+{
+  "name": "text-pdf-report",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-pdf-report": "^1.0.17",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
