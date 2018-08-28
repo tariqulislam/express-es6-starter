@@ -6,8 +6,13 @@
     "start": "node start.js"
   },
   "dependencies": {
+    "aws-sdk": "^2.302.0",
+    "busboy": "^0.2.14",
+    "busboy-body-parser": "^0.3.2",
+    "connect-busboy": "0.0.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "express-pdf-report": "^1.0.17",
